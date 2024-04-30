@@ -14,7 +14,8 @@ RUN pip install \
     seaborn==0.13.2 \
     jupyter==1.0.0 \
     scikit-learn==1.4.0 \
-    matplotlib==3.8.3
+    matplotlib==3.8.3 \
+    statsmodels==0.14.1
 
 WORKDIR /home/notebooks/
 COPY . /home/notebooks/
