@@ -15,7 +15,8 @@ RUN pip install \
     jupyter==1.0.0 \
     scikit-learn==1.4.0 \
     matplotlib==3.8.3 \
-    statsmodels==0.14.1
+    statsmodels==0.14.1 \
+    keras==3.3.3
 
 WORKDIR /home/notebooks/
 COPY . /home/notebooks/
