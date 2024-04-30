@@ -16,7 +16,7 @@ RUN pip install \
     scikit-learn==1.4.0 \
     matplotlib==3.8.3 \
     statsmodels==0.14.1 \
-    keras==3.3.3
+    tensorflow==2.16.1
 
 WORKDIR /home/notebooks/
 COPY . /home/notebooks/
