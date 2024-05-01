@@ -9,3 +9,4 @@
 ## Disclaimer
 ### You may need to specify the container file location as follows: [absolute_path]:/home/notebooks
 ### You may name the image and container whatever you please. 
+### Ignore lstm.ipynb file
